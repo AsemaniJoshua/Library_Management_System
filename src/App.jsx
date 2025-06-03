@@ -66,14 +66,14 @@ function App() {
         <div className="flex flex-col gap-[4px] w-full text-sm">
           <label htmlFor="email">Email:</label>
           <input type="email" id="email" value={email}
-            onChange={(e) => setEmail(e.target.value)} name="email" required placeholder="pentestsec@gmail.com" className="py-[5px] px-[10px] border-2 border-gray-400 rounded-lg" />
+            onChange={(e) => setEmail(e.target.value)} name="email" required placeholder="pentestsec@gmail.com" className="py-[5px] px-[10px] border-1 border-gray-400 rounded-lg" />
         </div>
 
         {/* Password */}
         <div className="flex flex-col gap-[4px] w-full text-sm">
           <label htmlFor="password">Password:</label>
           <input type="password" id="password" value={password}
-            onChange={(e) => setPassword(e.target.value)} name="password" required placeholder="••••••••" className="py-[5px] px-[10px] border-2 border-gray-400 rounded-lg" />
+            onChange={(e) => setPassword(e.target.value)} name="password" required placeholder="••••••••" className="py-[5px] px-[10px] border-1 border-gray-400 rounded-lg" />
         </div>
         
 
