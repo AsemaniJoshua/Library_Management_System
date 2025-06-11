@@ -1,84 +1,62 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import LogoBlack from "/assets/images/LogoBlack.png"
-import LogoWhite from "/assets/images/LogoWhite.png"
-import { useState, useEffect } from "react";
+import LogoBlack from "/assets/images/LogoBlack.png";
+import LogoWhite from "/assets/images/LogoWhite.png";
 
 function ForgetPassword() {
-
   const [username, setUsername] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  function handleSignin(event) {
-    event.preventDefault();
+  function handleSubmit(e) {
+    e.preventDefault();
     setIsLoading(true);
     setTimeout(() => {
       setIsLoading(false);
-      window.location.href = "/OTP"
-    }, 3000);
-    
+      alert("OTP sent to your email!");
+      window.location.href = "/otp";
+    }, 2000);
   }
 
   return (
-    <section className="absolute inset-0 h-screen w-screen flex justify-center items-center bg-gray-100 overflow-auto">
-      
-      {/* Sign Up page */}
-      <div className="lg:flex lg:flex-row-reverse bg-white">
-
-
-        {/* credential Div */}
-        <div className="max-w-md min-w-sm w-full bg-white p-[80px] flex flex-col gap-[20px] justify-center items-center relative">
-            
-            {/* Back Button at the right end */}
-            {/* <Link to="/" className="absolute top-4  left-[15%] lg:left-[90%]">
-              <button className="border border-black text-black">Back</button>
-            </Link> */}
-
-            <img src={LogoBlack} className="w-[60px] h-[60px]" alt="Logo" />
-             
-             <h2 className="text-2xl font-semibold tracking-wider">Forget Password</h2>
-
-             <p className="text-sm text-gray-500">Enter your username</p>
-
-             <form action="" method="post" className="flex flex-col gap-[20px] w-full p-[30px] mt-[-10px]" onSubmit={handleSignin}>
-
-                {/* Username */}
-                <input type="text" name="username" id="username" placeholder="Username" className="text-sm rounded-lg py-2 px-4 border border-gray-600" required onChange={(e) => setUsername(e.target.value)} value={username} />
-
-                {/* Password */}
-                {/* <input type="password" name="password" id="password" placeholder="Password" className="text-sm rounded-lg py-2 px-4 border border-gray-600" required onChange={(e) => setPassword(e.target.value)} value={password} /> */}
-
-                {/* Forget Password */}
-                {/* <Link to="/forget-password" className="underline font-medium hover:font-semibold mr-auto text-sm mt-[-5px]">Forget Password?</Link> */}
-
-                {/* Sign In Button */}
-                <button type="submit" disabled={isLoading} className="bg-black hover:bg-gray-900 text-white font-semibold py-2 px-4 rounded-xl w-full cursor-pointer transition ease-in-out duration-300">          
-                  {isLoading? "Resetting..." : "Reset password"}
-                </button>
-
-             </form>
+    <section className="absolute inset-0 h-screen w-screen flex justify-center items-center bg-gradient-to-br from-gray-100 via-blue-50 to-white overflow-auto">
+      <div className="lg:flex lg:flex-row-reverse rounded-2xl shadow-xl overflow-hidden">
+        {/* Form Card */}
+        <div className="max-w-md min-w-sm w-full bg-white p-[30px] flex flex-col gap-[20px] justify-center items-center">
+          <img src={LogoBlack} className="w-[60px] h-[60px]" alt="Logo" />
+          <h2 className="text-2xl font-semibold tracking-wider text-blue-900">Forgot Password</h2>
+          <p className="text-sm text-blue-400">Enter your username to receive an OTP</p>
+          <form className="flex flex-col gap-[20px] w-full p-[30px] mt-[-10px]" onSubmit={handleSubmit}>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Username"
+              className="text-sm rounded-lg py-2 px-4 border border-blue-200 focus:border-blue-500"
+              required
+              onChange={e => setUsername(e.target.value)}
+              value={username}
+            />
+            <button
+              type="submit"
+              disabled={isLoading}
+              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl w-full cursor-pointer transition ease-in-out duration-300 mt-[10px]"
+            >
+              {isLoading ? "Sending OTP..." : "Send OTP"}
+            </button>
+          </form>
+          <Link to="/" className="text-blue-700 hover:text-blue-900 text-sm font-medium mt-2">Back to Sign In</Link>
         </div>
-
-        {/* logo side Div */}
-        <div className="max-w-md min-w-sm w-full hidden lg:flex lg:flex-col bg-black text-white justify-center items-center p-[50px] gap-[80px] rounded-tr-4xl rounded-br-4xl">
-
-            {/* Logo with name */}
-            <div className="flex flex-col gap-[10px] items-center">
-              <img src={LogoWhite} className="" alt="Logo" />
-              <div className="flex flex-col gap-[4px] items-center">
-                <h2 className="text-4xl font-medium tracking-widest">BookWorm</h2>
-                <span className="text-base tracking-wider font-light">LIBRARY</span>
-              </div>
+        {/* Logo Side */}
+        <div className="max-w-md min-w-sm w-full hidden lg:flex lg:flex-col bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300 text-blue-900 justify-center items-center p-[50px] gap-[80px] rounded-tr-2xl rounded-br-2xl">
+          <div className="flex flex-col gap-[10px] items-center">
+            <img src={LogoWhite} className="" alt="Logo" />
+            <div className="flex flex-col gap-[4px] items-center">
+              <h2 className="text-4xl font-medium tracking-widest">BookWorm</h2>
+              <span className="text-base tracking-wider font-light">LIBRARY</span>
             </div>
-
-            {/* New to Platform */}
-            <div className="flex flex-col items-center">
-              <p className="text-base text-center w-[270px]">"Your premier digital library for borrowing and reading books"</p>
-            </div>
-
+          </div>
         </div>
-
       </div>
-
     </section>
   );
 }

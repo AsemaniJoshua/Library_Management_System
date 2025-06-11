@@ -34,14 +34,14 @@ const data = [
   {
     "id": "Borrowed",
     "label": "Borrowed",
-    "value": 300,
-    "color": "hsl(0, 0%, 0%)"
+    "value": 100,
+    "color": "hsl(0, 91%, 71%)"
   },
   {
     "id": "Returned",
     "label": "Returned",
-    "value": 100,
-    "color": "hsl(210, 5%, 52%)"
+    "value": 500,
+    "color": "hsl(152, 72%, 42%)"
   }
 //   {
 //     "id": "scala",
@@ -65,7 +65,7 @@ const data = [
 
 export default function PieChart() {
     return (
-        <div className="h-[400px] w-[400px] bg-white rounded-xl shadow-lg p-4">
+        <div className="h-[400px] lg:w-[50%] w-full bg-white rounded-xl shadow-lg p-4">
             <MyPie data={data} />
         </div>
     )

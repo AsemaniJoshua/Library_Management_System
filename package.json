@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@nivo/pie": "^0.99.0",
+    "@nivo/sankey": "^0.99.0",
+    "@nivo/stream": "^0.99.0",
     "@tabler/icons-react": "^3.34.0",
     "@tailwindcss/vite": "^4.1.8",
     "framer-motion": "^12.16.0",

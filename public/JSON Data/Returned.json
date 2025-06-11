@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "returnedDate": "2025-06-01 10:30:00",
+        "dueDate": "2025-10-15",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    },
+    {
+        "id": 2,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "returnedDate": "2025-05-20 14:45:00",
+        "dueDate": "2025-10-04",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    },
+    {
+        "id": 3,
+        "title": "1984",
+        "author": "George Orwell",
+        "returnedDate": "2025-03-05 09:15:00",
+        "dueDate": "2025-10-19",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 2
+    },
+    {
+        "id": 4,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "returnedDate": "2025-04-10 11:00:00",
+        "dueDate": "2025-09-25",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    },
+    {
+        "id": 5,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "returnedDate": "2025-06-15 13:30:00",
+        "dueDate": "2025-11-01",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    },
+    {
+        "id": 6,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "returnedDate": "2025-07-01 15:00:00",
+        "dueDate": "2025-11-15",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    },
+    {
+        "id": 7,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "returnedDate": "2025-08-05 12:00:00",
+        "dueDate": "2025-12-20",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    },
+    {
+        "id": 8,
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "returnedDate": "2025-09-10 16:30:00",
+        "dueDate": "2026-01-05",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    },
+    {
+        "id": 9,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "returnedDate": "2025-10-01 10:00:00",
+        "dueDate": "2026-02-15",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    },
+    {
+        "id": 10,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "returnedDate": "2025-10-20 14:00:00",
+        "dueDate": "2026-03-01",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    },
+    {
+        "id": 11,
+        "title": "The Heart of Darkness",
+        "author": "Joseph Conrad",
+        "returnedDate": "2025-11-05 11:30:00",
+        "dueDate": "2026-04-20",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    },
+    {
+        "id": 12,
+        "title": "The Heart of Man",
+        "author": "John Steinbeck",
+        "returnedDate": "2025-11-15 13:00:00",
+        "dueDate": "2026-05-01",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    },
+    {
+        "id": 13,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "returnedDate": "2025-12-01 09:45:00",
+        "dueDate": "2026-06-15",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    },
+    {
+        "id": 14,
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "returnedDate": "2025-12-20 10:15:00",
+        "dueDate": "2026-07-01",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    },
+    {
+        "id": 15,
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "returnedDate": "2026-01-05 12:30:00",
+        "dueDate": "2026-08-15",
+        "status": "Returned",
+        "user_id": 101,
+        "Quantity": 1
+    }
+]
