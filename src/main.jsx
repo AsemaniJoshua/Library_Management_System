@@ -10,6 +10,7 @@ import ResetPassword from "./pages/ResetPassword.jsx";
 import MainLayout from "./components/dashboard/MainLayout.jsx";
 import Dashboard from "./components/dashboard/Dashboard.jsx";
 import Catalog from "./components/dashboard/Catalog.jsx";
+import Book from "./components/dashboard/Book.jsx";
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -24,7 +25,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/dashboard" element={<MainLayout />} >
         <Route index element={<Dashboard />} />
         <Route path="catalog" element={<Catalog />} />
-        
+        <Route path="books" element={<Book />} />        
       </Route >
     </Routes>
   </BrowserRouter>,

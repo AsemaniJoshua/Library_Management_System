@@ -1,0 +1,903 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to Algorithms",
+        "author": "Thomas H. Cormen",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 5
+    },
+    {
+        "id": 2,
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 3,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "type": "Fiction",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 2
+    },
+    {
+        "id": 4,
+        "title": "Digital Fortress",
+        "author": "Dan Brown",
+        "type": "Thriller",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 5,
+        "title": "Calculus: Early Transcendentals",
+        "author": "James Stewart",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 6
+    },
+    {
+        "id": 6,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "type": "Fiction",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 3
+    },
+    {
+        "id": 7,
+        "title": "1984",
+        "author": "George Orwell",
+        "type": "Dystopian Fiction",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 4
+    },
+    {
+        "id": 8,
+        "title": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "type": "Psychological Thriller",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 9,
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "type": "Self-Help",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 5
+    },
+    {
+        "id": 10,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "type": "Romance",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 3
+    },
+    {
+        "id": 11,
+        "title": "Data Structures and Algorithms in Java",
+        "author": "Robert Lafore",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 12,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "type": "Fiction",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 2
+    },
+    {
+        "id": 13,
+        "title": "Operating System Concepts",
+        "author": "Abraham Silberschatz",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 14,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "type": "Science Fiction",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 3
+    },
+    {
+        "id": 15,
+        "title": "The Seven Husbands of Evelyn Hugo",
+        "author": "Taylor Jenkins Reid",
+        "type": "Contemporary Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 16,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "type": "Fantasy",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 5
+    },
+    {
+        "id": 17,
+        "title": "Database System Concepts",
+        "author": "Henry F. Korth",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 18,
+        "title": "Where the Crawdads Sing",
+        "author": "Delia Owens",
+        "type": "Mystery",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 19,
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "type": "Dystopian Fiction",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 2
+    },
+    {
+        "id": 20,
+        "title": "The Midnight Library",
+        "author": "Matt Haig",
+        "type": "Contemporary Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 21,
+        "title": "Computer Networks",
+        "author": "Andrew S. Tanenbaum",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 22,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "type": "Philosophical Fiction",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 6
+    },
+    {
+        "id": 23,
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "type": "Science Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 24,
+        "title": "Linear Algebra and Its Applications",
+        "author": "David C. Lay",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 25,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "type": "Gothic Fiction",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 2
+    },
+    {
+        "id": 26,
+        "title": "The Thursday Murder Club",
+        "author": "Richard Osman",
+        "type": "Mystery",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 27,
+        "title": "Artificial Intelligence: A Modern Approach",
+        "author": "Stuart Russell",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 28,
+        "title": "The Heart of Darkness",
+        "author": "Joseph Conrad",
+        "type": "Adventure Fiction",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 2
+    },
+    {
+        "id": 29,
+        "title": "Klara and the Sun",
+        "author": "Kazuo Ishiguro",
+        "type": "Science Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 30,
+        "title": "Organic Chemistry",
+        "author": "Paula Yurkanis Bruice",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 5
+    },
+    {
+        "id": 31,
+        "title": "The Guest List",
+        "author": "Lucy Foley",
+        "type": "Thriller",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 32,
+        "title": "The Heart of Man",
+        "author": "John Steinbeck",
+        "type": "Fiction",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 2
+    },
+    {
+        "id": 33,
+        "title": "Educated",
+        "author": "Tara Westover",
+        "type": "Memoir",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 34,
+        "title": "Physics for Scientists and Engineers",
+        "author": "Raymond A. Serway",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 6
+    },
+    {
+        "id": 35,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "type": "Epic Poetry",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 3
+    },
+    {
+        "id": 36,
+        "title": "The Invisible Life of Addie LaRue",
+        "author": "V.E. Schwab",
+        "type": "Fantasy",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 37,
+        "title": "Microeconomics",
+        "author": "N. Gregory Mankiw",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 38,
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "type": "Historical Fiction",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 2
+    },
+    {
+        "id": 39,
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "type": "Mythology",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 40,
+        "title": "Campbell Biology",
+        "author": "Jane B. Reece",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 5
+    },
+    {
+        "id": 41,
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "type": "Philosophical Fiction",
+        "language": "English",
+        "availability": "Borrowed",
+        "quantity": 2
+    },
+    {
+        "id": 42,
+        "title": "The Song of Achilles",
+        "author": "Madeline Miller",
+        "type": "Historical Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 43,
+        "title": "Statistics for Business and Economics",
+        "author": "Paul Newbold",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 44,
+        "title": "Normal People",
+        "author": "Sally Rooney",
+        "type": "Contemporary Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 45,
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "type": "Drama",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 46,
+        "title": "Fundamentals of Engineering Thermodynamics",
+        "author": "Michael J. Moran",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 47,
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "type": "Historical Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 48,
+        "title": "Gone Girl",
+        "author": "Gillian Flynn",
+        "type": "Psychological Thriller",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 49,
+        "title": "Principles of Marketing",
+        "author": "Philip Kotler",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 50,
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "type": "Crime Thriller",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 51,
+        "title": "Cien Años de Soledad",
+        "author": "Gabriel García Márquez",
+        "type": "Magical Realism",
+        "language": "Spanish",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 52,
+        "title": "Financial Accounting",
+        "author": "Jerry J. Weygandt",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 5
+    },
+    {
+        "id": 53,
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "type": "Dystopian Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 54,
+        "title": "Life of Pi",
+        "author": "Yann Martel",
+        "type": "Adventure Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 55,
+        "title": "Engineering Mechanics: Statics",
+        "author": "Russell C. Hibbeler",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 56,
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "type": "Mystery Thriller",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+        {
+        "id": 57,
+        "title": "Beloved",
+        "author": "Toni Morrison",
+        "type": "Historical Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 58,
+        "title": "Fundamentals of Corporate Finance",
+        "author": "Stephen A. Ross",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 59,
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "type": "Post-Apocalyptic Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 60,
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "type": "Science Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 61,
+        "title": "Principles of Psychology",
+        "author": "David G. Myers",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 62,
+        "title": "The Fault in Our Stars",
+        "author": "John Green",
+        "type": "Young Adult Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 5
+    },
+    {
+        "id": 63,
+        "title": "One Hundred Years of Solitude",
+        "author": "Gabriel García Márquez",
+        "type": "Magical Realism",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 64,
+        "title": "Discrete Mathematics and Its Applications",
+        "author": "Kenneth H. Rosen",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 65,
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "type": "Dystopian Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 6
+    },
+    {
+        "id": 66,
+        "title": "Catch-22",
+        "author": "Joseph Heller",
+        "type": "Satirical Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 67,
+        "title": "Fundamentals of Nursing",
+        "author": "Patricia A. Potter",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 68,
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "type": "Fantasy",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 5
+    },
+    {
+        "id": 69,
+        "title": "Slaughterhouse-Five",
+        "author": "Kurt Vonnegut",
+        "type": "Science Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 70,
+        "title": "Principles of Management",
+        "author": "Stephen P. Robbins",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 71,
+        "title": "The Color Purple",
+        "author": "Alice Walker",
+        "type": "Drama",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 72,
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "type": "Fantasy",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 8
+    },
+    {
+        "id": 73,
+        "title": "Anatomy and Physiology",
+        "author": "Elaine N. Marieb",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 5
+    },
+    {
+        "id": 74,
+        "title": "The Shining",
+        "author": "Stephen King",
+        "type": "Horror",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 75,
+        "title": "Wuthering Heights",
+        "author": "Emily Brontë",
+        "type": "Gothic Romance",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 76,
+        "title": "International Economics",
+        "author": "Paul R. Krugman",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 77,
+        "title": "The Stranger",
+        "author": "Albert Camus",
+        "type": "Philosophical Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 78,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "type": "Gothic Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 79,
+        "title": "Fundamentals of Electrical Engineering",
+        "author": "Giorgio Rizzoni",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 80,
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "type": "Gothic Romance",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 81,
+        "title": "The Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "type": "Fantasy",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 6
+    },
+    {
+        "id": 82,
+        "title": "Principles of Economics",
+        "author": "N. Gregory Mankiw",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 5
+    },
+    {
+        "id": 83,
+        "title": "The Metamorphosis",
+        "author": "Franz Kafka",
+        "type": "Absurdist Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 84,
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "type": "Adventure Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 85,
+        "title": "Organic Chemistry: Structure and Function",
+        "author": "K. Peter C. Vollhardt",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 86,
+        "title": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "type": "Adventure Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 87,
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "type": "Psychological Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 88,
+        "title": "Introduction to Sociology",
+        "author": "Anthony Giddens",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 89,
+        "title": "Les Misérables",
+        "author": "Victor Hugo",
+        "type": "Historical Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 90,
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "type": "Romance",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 91,
+        "title": "Fundamentals of Machine Learning",
+        "author": "Mehryar Mohri",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 92,
+        "title": "The Iliad",
+        "author": "Homer",
+        "type": "Epic Poetry",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 93,
+        "title": "Don Quixote",
+        "author": "Miguel de Cervantes",
+        "type": "Adventure Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 94,
+        "title": "Environmental Science",
+        "author": "G. Tyler Miller",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    },
+    {
+        "id": 95,
+        "title": "The Divine Comedy",
+        "author": "Dante Alighieri",
+        "type": "Epic Poetry",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 96,
+        "title": "Madame Bovary",
+        "author": "Gustave Flaubert",
+        "type": "Literary Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 97,
+        "title": "Introduction to Political Science",
+        "author": "Robert A. Dahl",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 3
+    },
+    {
+        "id": 98,
+        "title": "The Canterbury Tales",
+        "author": "Geoffrey Chaucer",
+        "type": "Medieval Literature",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 2
+    },
+    {
+        "id": 99,
+        "title": "Ulysses",
+        "author": "James Joyce",
+        "type": "Modernist Fiction",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 1
+    },
+    {
+        "id": 100,
+        "title": "Research Methods in Psychology",
+        "author": "John J. Shaughnessy",
+        "type": "Educational",
+        "language": "English",
+        "availability": "Available",
+        "quantity": 4
+    }
+]
+
